@@ -1,0 +1,13 @@
+{
+  "isbn": "12345678901",
+  "title": "Hello World!",
+  "authors": ["Joe Blow", "John Doe"],
+  "weight": {
+    "unit": 2.34,
+    "shipping": 2.9
+  },
+  "copyright": {
+    "1981": "Joe Blow and John Doe",
+    "1984": "Pendant Publishing"
+  }
+}

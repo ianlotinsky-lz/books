@@ -1,0 +1,11 @@
+{
+  "isbn": "12345678901",
+  "pages": 112,
+  "copyright": "1981",
+  "in_stock": 1635,
+  "weight": {
+    "unit": 2.34,
+    "box": 0.56,
+    "shipping": 2.9
+  }
+}
