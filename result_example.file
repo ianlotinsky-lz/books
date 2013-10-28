@@ -1,16 +1,21 @@
 {
   "isbn": "12345678901",
   "title": "Hello World!",
-  "authors": ["Joe Blow", "John Doe"],
+  "authors": [
+    "Joe Blow",
+    "John Doe"
+  ],
   "weight": {
     "unit": 2.34,
-    "box": 0.56,
     "shipping": 2.9
   },
-  "copyright": ["1981", {
-    "1981": "Joe Blow and John Doe",
-    "1984": "Pendant Publishing"
-  }],
+  "copyright": [
+    "1981",
+    {
+      "1981": "Joe Blow and John Doe",
+      "1984": "Pendant Publishing"
+    }
+  ],
   "pages": 112,
   "in_stock": 1635
 }
