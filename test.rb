@@ -14,7 +14,7 @@ class BookTest < Test::Unit::TestCase
   end
 
   def test_authors
-    assert_equal 1, @result.scan(/"authors": \["Joe Blow", "John Doe"\]/).size
+    assert_equal 1, @result.scan(/"authors": \[\s*"Joe Blow",\s*"John Doe"\s*\]/m).size
   end
 
   def test_weight
