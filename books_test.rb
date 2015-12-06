@@ -1,8 +1,8 @@
-require "test/unit"
+require "minitest/autorun"
 
-class BooksTest < Test::Unit::TestCase
+class BooksTest < Minitest::Test 
   def setup
-    @result = File.open('result_example.file', 'rb').read
+    @result = File.read("result_example.file")
   end
 
   def test_isbn
