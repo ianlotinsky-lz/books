@@ -1,6 +1,6 @@
 require "test/unit"
 
-class BookTest < Test::Unit::TestCase
+class BooksTest < Test::Unit::TestCase
   def setup
     @result = File.open('result_example.file', 'rb').read
   end
