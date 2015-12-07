@@ -1,8 +1,8 @@
-require "test/unit"
+require "minitest/autorun"
 
-class BookTest < Test::Unit::TestCase
+class BooksTest < Minitest::Test 
   def setup
-    @result = File.open('result_example.file', 'rb').read
+    @result = File.read("result_example.file")
   end
 
   def test_isbn
@@ -19,9 +19,10 @@ class BookTest < Test::Unit::TestCase
 
   def test_weight
     assert_equal ["weight"], @result.scan(/weight/)
-    assert_equal ["unit"], @result.scan(/unit/)
-    assert_equal ["box"], @result.scan(/box/)
-    assert_equal ["shipping"], @result.scan(/shipping/)
+    assert_equal [%Q("unit": 2.34)], @result.scan(/"unit": 2.34/)
+    assert_equal [%Q("box": 0.56)], @result.scan(/"box": 0.56/)
+    assert_equal [%Q("shipping": 2.9)], @result.scan(/"shipping": 2.9/)
+    assert_equal [%Q("gross": 3.78)], @result.scan(/"gross": 3.78/)
   end
 
   def test_copyright

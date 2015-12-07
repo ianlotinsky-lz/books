@@ -8,7 +8,8 @@
   "weight": {
     "unit": 2.34,
     "box": 0.56,
-    "shipping": 2.9
+    "shipping": 2.9,
+    "gross": 3.78
   },
   "copyright": [
     "1981",

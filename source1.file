@@ -4,7 +4,8 @@
   "authors": ["Joe Blow", "John Doe"],
   "weight": {
     "unit": 2.34,
-    "shipping": 2.9
+    "shipping": 2.9,
+    "gross": 3.78
   },
   "copyright": {
     "1981": "Joe Blow and John Doe",
