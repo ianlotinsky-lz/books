@@ -5,12 +5,4 @@ You have been tasked with writing Ruby code that parses two files of book meta-d
 
 Clarifying-questions, use of online resources, and code libraries are all fair game.
 
-You have 45 minutes to complete this task.
-
-## Setup
-
-1. After cloning the repository, execute `bundle install`.
-	
-2. Verify the setup by running the tests:
-
-	`bundle exec ruby books_test.rb`
+You have 40-45 minutes to complete this task.
